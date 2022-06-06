@@ -6,7 +6,7 @@ import {  Grid, Box } from '@mui/material';
 
 import useStyles from './styles';
 import Login2 from '../../components/userAuth/Login/Login2';
-import Copyright from '../../components/Copyright/Copyright';
+// import Copyright from '../../components/Copyright/Copyright';
 import { CssBaseline } from '@material-ui/core';
 
 const Home = () => {
@@ -54,7 +54,7 @@ const Home = () => {
                 </Grid>
 
                 <Box mt={6}>
-                    <Copyright />
+                    {/* <Copyright /> */}
                 </Box>       
             </div>
 
